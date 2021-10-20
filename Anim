@@ -8,7 +8,7 @@ local c = b.Character
  game:GetService("Players").LocalPlayer.Character.Head.Transparency = 0
  for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
 if (v:IsA("Decal")) then
-v:Nothing()
+v:Destroy()
 local Animate = game.Players.LocalPlayer.Character.Animate
 Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
 Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782845736"
